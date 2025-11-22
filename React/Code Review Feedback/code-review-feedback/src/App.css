@@ -1,0 +1,140 @@
+
+/* Global Styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+  padding: 16px 24px;
+  background: #1f2937;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  margin-bottom: 24px;
+}
+
+.navbar-title {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin: 0;
+  text-align: center;
+}
+
+
+
+/* Center Container */
+.w-mx-1200 {
+  max-width: 1200px;
+}
+
+/* Flex Layout */
+.flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+/* Margin + Padding Utilities */
+.mt-30 {
+  margin-top: 30px;
+}
+
+.my-30 {
+  margin: 30px 0;
+}
+
+.my-10 {
+  margin: 10px 0;
+}
+
+.pa-10 {
+  padding: 10px;
+}
+
+.px-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.py-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Card Component */
+.card {
+  background: #ffffff;
+  padding: 20px;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.card h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Buttons */
+button {
+  border: none;
+  cursor: pointer;
+  background: #4f8cff;
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+button:hover {
+  background: #3c6edc;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+/* Danger Button */
+button.danger {
+  background: #e55454;
+}
+
+button.danger:hover {
+  background: #c44444;
+}
+
+/* Text styling */
+p {
+  font-size: 15px;
+  color: #444;
+}
+
+strong {
+  color: #000;
+}

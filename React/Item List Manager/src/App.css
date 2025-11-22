@@ -1,0 +1,49 @@
+/* Navbar styling */
+.navbar {
+  background: #282c34;
+  color: white;
+  padding: 15px 20px;
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between; /* space for button */
+  align-items: center;
+}
+
+/* Button styling */
+button {
+  background-color: #61dafb;   /* React blue */
+  color: #282c34;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #52c5e6;
+}
+
+/* List styling */
+ul {
+  list-style: none; 
+  padding: 0;
+  margin: 20px 0;
+}
+
+ul li {
+  background: #f3f3f3;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  font-size: 18px;
+  border-left: 5px solid #61dafb;
+  transition: 0.3s ease;
+}
+
+ul li:hover {
+  background: #e7e7e7;
+}
